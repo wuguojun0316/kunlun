@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">良昌</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="action_settings">设置</string>
+</resources>

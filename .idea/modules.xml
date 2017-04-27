@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kunlun.iml" filepath="$PROJECT_DIR$/kunlun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/librarydemo/librarydemo.iml" filepath="$PROJECT_DIR$/librarydemo/librarydemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nice-spinner-master/nice-spinner-master.iml" filepath="$PROJECT_DIR$/nice-spinner-master/nice-spinner-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studybar/studybar.iml" filepath="$PROJECT_DIR$/studybar/studybar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volley/volley.iml" filepath="$PROJECT_DIR$/volley/volley.iml" />
+    </modules>
+  </component>
+</project>

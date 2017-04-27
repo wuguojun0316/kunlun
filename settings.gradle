@@ -1,0 +1,7 @@
+include ':app', ':studybar', ':librarydemo', ':nice-spinner-master', ':volley'
+
+def initEnvironment() {
+    println "initialize Gradle Environment";
+}
+
+initEnvironment();

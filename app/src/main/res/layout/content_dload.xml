@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.DloadActivity"
+    tools:showIn="@layout/app_bar_dload">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivLoadImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.v4.widget.ContentLoadingProgressBar
+            android:id="@+id/cpbLoading"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:max="100"
+            android:progress="10"
+            android:visibility="visible"
+            style="?android:attr/progressBarStyleHorizontal"/>
+
+        <org.angmarch.views.NiceSpinner
+            android:id="@+id/nice_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.liangcang.kunlun.widget.DragLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dip"
+            android:paddingBottom="20dip">
+
+            <ImageView
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/c"/>
+
+        </com.liangcang.kunlun.widget.DragLayout>
+
+        <Button
+            android:id="@+id/btnFlash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="列表"/>
+
+        <Button
+            android:id="@+id/btnFlash1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="10dp"
+            android:text="popupwindow"/>
+
+        <Button
+            android:id="@+id/btnFlexBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="10dp"
+            android:text="FlexBox布局"/>
+
+        <Button
+            android:id="@+id/btnRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="刷新加载"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:id="@+id/btnFlash4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="列表3"
+            android:layout_marginEnd="10dp"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
