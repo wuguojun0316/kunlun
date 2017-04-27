@@ -16,4 +16,15 @@ public class ZxingActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
     }
+
+    public void initData()
+    {
+
+    }
+
+    public void initView()
+    {
+
+    }
+
 }
