@@ -7,4 +7,19 @@ package com.liangcang.kunlun.activity;
 
 public class ZxingActivity
 {
+    /**
+     * 初始化数据
+     */
+    public void initData()
+    {
+
+    }
+
+    /**
+     * 初始化组件
+     */
+    public void initViews()
+    {
+
+    }
 }
