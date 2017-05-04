@@ -7,4 +7,5 @@ package com.liangcang.kunlun.fragment;
 
 public class ZxingFragment
 {
+	private int mIndex;       // Git
 }
