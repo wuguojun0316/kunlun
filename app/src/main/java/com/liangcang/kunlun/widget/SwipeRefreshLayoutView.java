@@ -17,7 +17,6 @@ import java.util.logging.Logger;
 /**
  * Created by Wuguojun on 17/4/12.
  */
-
 public class SwipeRefreshLayoutView extends SwipeRefreshLayout
 {
     private ListView mListView;
@@ -49,7 +48,7 @@ public class SwipeRefreshLayoutView extends SwipeRefreshLayout
             // 判断有多少个子View
             if(getChildCount() > 0)
             {
-                // 判断ListFiew是否是ListView
+                // 判断ListView是否是ListView
                 if(getChildAt(0) instanceof ListView)
                 {
                     // 创建ListView对象
