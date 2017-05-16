@@ -13,22 +13,32 @@ import android.view.View;
 
 public class ZxingActivity extends AppCompatActivity implements View.OnClickListener
 {
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
     }
 
+    /**
+     * 初始化组件
+     */
+    public void initViews()
+    {
+
+    }
+
+    /**
+     * 初始化数据
+     *
+     */
+
     public void initData()
     {
 
     }
 
-    public void initView()
-    {
-
-    }
-
+<<<<<<< HEAD
     @Override
     public void onClick(View v)
     {
@@ -42,5 +52,7 @@ public class ZxingActivity extends AppCompatActivity implements View.OnClickList
                 break;
         }
     }
+=======
+>>>>>>> 94c42f5435b2120f4a301831e757a04db93aa60a
 
 }
